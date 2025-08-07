@@ -17,7 +17,7 @@ st.title("👕 DreamFit Image-to-Image Generator")
 st.markdown("Upload a clothing image and describe the desired style to generate a new image!")
 
 # API endpoint - use environment variable for deployment
-API_URL = os.getenv("BACKEND_API_URL", "http://127.0.0.1:8000/inference/")
+API_URL = os.getenv("BACKEND_API_URL", "https://f53bcc92c68b.ngrok-free.app/inference/")
 
 def main():
     # Create two columns for input and output
